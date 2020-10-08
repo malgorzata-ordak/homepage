@@ -1,5 +1,5 @@
 body {
-  background: #c9c0d4;
+  background: #706369;
 }
 
 #podkreslenie {
@@ -14,12 +14,12 @@ h2 {
   color: #1460aa;
 }
 
-.malinowy-naglowek {
+.malinowy-h1 {
   color: #af1b3f;
 }
 
-.fioletowy-naglowek {
-  color: #607196;
+.fioletowy-h2 {
+  color: #3f5380;
 }
 
 .seledyn {
