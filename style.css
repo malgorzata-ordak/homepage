@@ -1,28 +1,27 @@
-body{
-    background: #F9DEC9;
-
+body {
+  background: #c9c0d4;
 }
 
-#podkreslenie{
-    background:#b9a6ab;
+#podkreslenie {
+  background: #b9a6ab;
 }
 
-nav a{
-    color:#FF0054;
+nav a {
+  color: #ff0054;
 }
 
-h2{
-    color:#1460AA;
+h2 {
+  color: #1460aa;
 }
 
-.malinowy-naglowek{
-    color:#AF1B3F;
+.malinowy-naglowek {
+  color: #af1b3f;
 }
 
-.fioletowy-naglowek{
-    color:#607196;
+.fioletowy-naglowek {
+  color: #607196;
 }
 
-.seledyn{
-    color:#68A691;
+.seledyn {
+  color: #68a691;
 }
