@@ -9,18 +9,28 @@ body {
 nav a {
   color: #ff0054;
   display: inline-block;
-  margin: 5px;
 }
 
 .nawigacja {
-  padding-left: 229px;
+  background: #b9a6ab;
+  padding: 13px;
+  border-radius: 10px;
 }
 
-.main{
+.nawigacja__link {
+  color: #1460aa;
+  display: inline-block;
+  margin: 5px;
+}
+
+.nawigacja__link--homepage {
+  background: #1460aa;
+  color: #68a691;
+}
+.main {
   box-sizing: border-box;
   max-width: 1000px;
   margin: 50px auto;
-
 }
 
 h2 {
