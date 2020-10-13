@@ -33,6 +33,25 @@ nav a {
   margin: 50px auto;
 }
 
+.blok {
+ padding: 15px;
+ border: 1px #b9a6ab dashed; 
+margin-top: 6px;
+}
+
+.blok__fioletowy-h2 {
+  padding: 5px;
+  border: 2px #af1b3f solid;
+  border-radius: 10px;
+  background: #b9a6ab;
+}
+
+.blok__fioletowy-h2--special {
+  border: 3px #af1b3f groove;
+  background: transparent 
+
+}
+
 h2 {
   color: #1460aa;
 }
