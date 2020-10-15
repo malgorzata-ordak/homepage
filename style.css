@@ -2,6 +2,9 @@ body {
   background: #706369;
 }
 
+.header{
+
+}
 #podkreslenie {
   background: #b9a6ab;
 }
@@ -28,9 +31,8 @@ nav a {
   color: #68a691;
 }
 .main {
-  box-sizing: border-box;
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 .blok {
@@ -52,11 +54,23 @@ margin-top: 6px;
 
 }
 
+.pomysł{
+
+}
+
+.pomysł__seledyn{
+
+}
+
+.pomysł__opis{
+
+}
+
 h2 {
   color: #1460aa;
 }
 
-.malinowy-h1 {
+.malinowy__h1 {
   color: #af1b3f;
 }
 
@@ -64,6 +78,11 @@ h2 {
   color: #3f5380;
 }
 
-.seledyn {
+.pomysł__seledyn {
   color: #68a691;
+}
+
+.footer{
+  max-width: 1000px;
+  margin: 0px auto;
 }
