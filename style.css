@@ -1,5 +1,13 @@
 body {
   background: #706369;
+  background-color: #FAACA8;
+background-image: linear-gradient(332deg, #FAACA8 0%, #DDD6F3 61%);
+
+  
+
+
+
+
 }
 
 .header{
@@ -84,5 +92,5 @@ h2 {
 
 .footer{
   max-width: 1000px;
-  margin: 0px auto;
+  margin: 8px auto;
 }
