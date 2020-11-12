@@ -1,17 +1,26 @@
-body {
-  background: #706369;
-  background-color: #FAACA8;
-background-image: linear-gradient(332deg, #FAACA8 0%, #DDD6F3 61%);
-
-  
-
-
-
-
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-.header{
+body {
+  background: #706369;
+  background-color: #faaca8;
+  background-image: linear-gradient(332deg, #faaca8 0%, #ddd6f3 61%);
+  background-size: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+  
+}
 
+.head {
+  
+}
+.header {
 }
 #podkreslenie {
   background: #b9a6ab;
@@ -24,14 +33,17 @@ nav a {
 
 .nawigacja {
   background: #b9a6ab;
-  padding: 13px;
+  padding: 6px;
   border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  min-width: 100vh;
 }
 
 .nawigacja__link {
   color: #1460aa;
   display: inline-block;
-  margin: 5px;
+  margin: 16px;
 }
 
 .nawigacja__link--homepage {
@@ -39,14 +51,41 @@ nav a {
   color: #68a691;
 }
 .main {
+  display: grid;
+  grid-template-areas: "header header header"
+  "article . aside"
+  "footer footer footer";
+  grid-template-columns: 1fr 30px 400px;
+  column-gap: 16px;
+  row-gap: 16px;
   max-width: 1000px;
   margin: 0px auto;
 }
 
+.header {
+  grid-area: header;
+  min-width: 100vh;
+
+}
+
+.article{
+  grid-area: article;
+
+}
+
+
+.aside{
+  grid-area: aside;
+}
+
+.footer{
+  grid-area: footer;
+  min-width: 100vh;
+}
 .blok {
- padding: 15px;
- border: 1px #b9a6ab dashed; 
-margin-top: 6px;
+  padding: 15px;
+  border: 1px #b9a6ab dashed;
+  margin-top: 6px;
 }
 
 .blok__fioletowy-h2 {
@@ -58,20 +97,24 @@ margin-top: 6px;
 
 .blok__fioletowy-h2--special {
   border: 3px #af1b3f groove;
-  background: transparent 
+  background: transparent;
+}
+
+.blok__fioletowy-h2--modyfikator {
 
 }
 
-.pomysł{
-
+b {
+ color: #68a691
 }
 
-.pomysł__seledyn{
-
+.pomysł {
 }
 
-.pomysł__opis{
+.pomysł__seledyn {
+}
 
+.pomysł__opis {
 }
 
 h2 {
@@ -90,7 +133,43 @@ h2 {
   color: #68a691;
 }
 
-.footer{
+.footer {
   max-width: 1000px;
-  margin: 8px auto;
+  margin: 0px auto;
+  padding-bottom: 16px;
+}
+
+.footer1 {
+  max-width: 60%;
+  margin: 10px auto;
+  padding: 16px;
+}
+
+.main-malediwy {
+  width: 60%;
+  margin: 10px auto;
+  padding: 16px;
+}
+
+.zdjecie-burza {
+  display: block;
+  margin: 60px auto;
+  width: 50%;
+
+}
+
+.zdjecieJesien {
+  display: block;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    background-color: #FBDA61;
+    background-image: linear-gradient(169deg, #FBDA61 36%, #FF5ACD 100%);
+    
+  }
+  .footer{
+   background-color: #FBDA61;
+  }
 }
