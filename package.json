@@ -1,0 +1,28 @@
+{
+  "name": "homepageee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w style.scss style.css",
+    "cow": "cowsay siemanko mordeczki!",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malgorzata-ordak/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malgorzata-ordak/homepage/issues"
+  },
+  "homepage": "https://github.com/malgorzata-ordak/homepage#readme",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
