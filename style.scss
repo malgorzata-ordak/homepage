@@ -108,12 +108,24 @@ nav a {
   border: 1px #b9a6ab dashed;
   margin-top: 6px;
 
+
   &__fioletowy-h2 {
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 10px;
+      background: #b34460;
+    }
     padding: 5px;
     border: 2px #af1b3f solid;
     border-radius: 10px;
     background: #b9a6ab;
-  }
+    }
+  
   &__fioletowy-h2--special {
     border: 3px #af1b3f groove;
     background: transparent;

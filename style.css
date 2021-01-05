@@ -92,6 +92,14 @@ nav a {
     border: 2px #af1b3f solid;
     border-radius: 10px;
     background: #b9a6ab; }
+    .blok__fioletowy-h2::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 10px;
+      background: #b34460; }
   .blok__fioletowy-h2--special {
     border: 3px #af1b3f groove;
     background: transparent; }
